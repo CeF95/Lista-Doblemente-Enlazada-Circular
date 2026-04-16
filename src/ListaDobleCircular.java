@@ -1,5 +1,5 @@
 public class ListaDobleCircular {
-    private Nodo head = null;
+    private Nodo head = null; // Atributo para almacenar el nodo head de la lista, inicialmente es null indicando que la lista está vacía
 
     // Insertar al Inicio 
     public void insertarAlInicio(int dato) {
