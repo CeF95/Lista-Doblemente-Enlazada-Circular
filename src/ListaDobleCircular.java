@@ -66,8 +66,31 @@ public class ListaDobleCircular {
     }
 
     // Buscar un Elemento 
-    public boolean buscarElemento() { }
+    public boolean buscarElemento(int valorBuscado) { 
+        if (head == null) { // Si la lista está vacía, no se puede encontrar ningún elemento
+            return false; // Retornar false indicando que el elemento no fue encontrado
+        }
+        Nodo actual = head; // Comenzar la búsqueda desde el head de la lista
+        do { // Recorrer la lista hasta volver al head
+            if (actual.dato == valorBuscado) { // Si el dato del nodo actual coincide con el valor buscado
+                return true; // Retornar true indicando que el elemento fue encontrado
+            }
+            actual = actual.siguiente; // Mover al siguiente nodo en la lista
+        } while (actual != head); // Continuar hasta volver al head de la lista
+        return false; // Retornar false indicando que el elemento no fue encontrado después de recorrer toda la lista
+    }
 
     // Recorrer e Imprimir la Lista 
-    public void imprimir() {}
+    public void imprimir() {
+        if (head == null) { // Si la lista está vacía, no hay nada que imprimir
+            System.out.println("La lista esta vacia");
+            return; // Salir del método sin hacer nada
+        }
+        Nodo actual = head; // Comenzar a imprimir desde el head de la lista
+        do { // Recorrer la lista hasta volver al head
+            System.out.print(actual.dato + " "); // Imprimir el dato del nodo actual seguido de un espacio
+            actual = actual.siguiente; // Mover al siguiente nodo en la lista
+        } while (actual != head); // Continuar hasta volver al head de la lista
+        System.out.println(); // Imprimir una nueva línea después de imprimir todos los elementos de la lista
+    }
 }
