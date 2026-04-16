@@ -17,6 +17,7 @@ java Main
 ``` 
 ## Resultados 
 <div align="center">
+
 1 PARA INGRESAR UN DATO AL INICIO
 ![alt text](image.png)
 
@@ -37,6 +38,7 @@ java Main
 
 7 PARA SALIR
 ![alt text](image-6.png)
+
 </div>
 ## Estructura del Proyecto 
 | Archivo | Descripción | 
