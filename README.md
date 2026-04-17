@@ -2,13 +2,34 @@
 Ejemplo Lista Doblemente Enlazada Circular
 
  Examen Parcial - Estructuras de Datos 
-## Información del Estudiante - **Nombre:** [Celeste Fuentes] - **Carné:** [202500185] - **Curso:** Estructuras de Datos - **Catedrático:** Ing. Brandon Chitay 
+ 
+## Información del Estudiante - 
+**Nombre:** [Celeste Fuentes] - **Carné:** [202500185] - 
+**Curso:** Estructuras de Datos - **Catedrático:** Ing. Brandon Chitay 
  
 ## Descripción del Proyecto 
-[Implementacion de una lista doblemente enlazada circular] 
+
+### Una lista doblemente enlazada circular
+Se caracteriza porque cada nodo tiene dos apuntadores, no tiene final (null en el nodo final), es ciclica, 
+se pueden insertar o eliminar nodos rapidamente en ambos extremos, se puede recorrer desde cualquier parte nodo.
+
+Recordemos que la base de la lista doblemente circular es:
+- Un nodo 
+- Un apuntador siguiente
+- Un apuntador final
+
+El proyecto pretende mostrar como se implementa la lista doblemente circular:
+
+- Añadiendo datos al inicio
+- Añadiendo datos al final
+- Eliminando datos al inicio
+- Eliminando datos al final
+- La busqueda de un elemento
+- El mostrar la lista completa
+- Y nos da la opcion salir del menu 
  
 ## Video Explicativo 
-[Enlace al video] 
+[\[Enlace al video\] ](https://drive.google.com/file/d/1ygSrTdoonIkdITOfa2dN--jqnK1sMMhc/view?usp=drive_link)
  
 ## Instrucciones de Compilación y Ejecución 
 #### Clona el git 
@@ -43,6 +64,7 @@ java Main
 
 </div>
 ## Estructura del Proyecto 
+
 | Archivo | Descripción | 
 |---------|-------------| 
 | Nodo.java | Clase del nodo | 
