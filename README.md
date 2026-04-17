@@ -29,7 +29,7 @@ El proyecto pretende mostrar como se implementa la lista doblemente circular:
 - Y nos da la opcion salir del menu 
  
 ## Video Explicativo 
-[\[Enlace al video\] ](https://drive.google.com/file/d/1ygSrTdoonIkdITOfa2dN--jqnK1sMMhc/view?usp=drive_link)
+[\[Clic para ver el video\] ](https://drive.google.com/file/d/1ygSrTdoonIkdITOfa2dN--jqnK1sMMhc/view?usp=drive_link)
  
 ## Instrucciones de Compilación y Ejecución 
 #### Clona el git 
